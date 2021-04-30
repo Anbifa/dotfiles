@@ -17,86 +17,42 @@ then
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 	
 	brew install git-lfs
-	brew install thefuck
 
 	brew install wget
 	brew install node
 
 	brew install --cask iterm2
-	brew install vim tmux fzf tmate fff
-	brew install cmake
-	brew install ninja
-	brew install autoconf automake
-	brew install doxygen
+	brew install vim
 
-	brew install safe-rm
-	ln -s /usr/local/bin/safe-rm /usr/local/bin/rm
 
 	brew install --cask visual-studio-code 
 	brew install --cask arduino teensy
-	brew install --cask sourcetree
-	brew install platformio 
+	brew install platformio
 	brew install arduino-cli
 	
-	brew tap heroku/brew && brew install heroku
-	brew install --cask unetbootin
 
 	brew install --cask eagle fritzing
 	brew install --cask autodesk-fusion360
 	brew install --cask blender
 
-	brew install --cask google-backup-and-sync
 	brew install --cask sketch
 
-	brew install --cask google-drive
 
 	brew install --cask google-chrome
 	brew install --cask firefox 
-	# https://addons.mozilla.org/en/firefox/addon/multi-account-containers/
-	# https://addons.mozilla.org/en-US/firefox/addon/facebook-container/
-	# https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/
 
-	brew install --cask spectacle
+	brew install --cask vlc
 
-	brew install --cask vlc 
-	brew install --cask spotify
-	# brew install --cask soundflower 
-	# brew install --cask blackhole 
-	brew install lame
-	# brew install --cask ableton-live
-	brew install --cask native-access
-	# valhalla dsp plugins
-	# kramer master tape
-
-	brew install imagemagick
-	brew install glslviewer
-
-	brew install --cask processing supercollider touchdesigner
 
 	brew install --cask slack 
-	brew install --cask skype
 	brew install --cask zoomus
 	brew install --cask discord
-	brew install --cask telegram
 	brew install --cask signal
 
-	brew tap thomasgeissl/tools
-	brew install ofpackagemanager
-	brew install ofoscdebugger
-	brew install ofmididebugger
-	brew install --cask ofpackagemanagerfrontend
-	brew install --cask ragazzi
 
 	npm install -g yarn nodemon http-serve mqtt
-	npm install -g create-react-app
-
-	brew install python
-	# sudo easy_install pip
-
 
 	brew install --cask docker
-	#brew install --cask qt-creator
-	#brew install qt
 	brew install --cask android-studio android-sdk android-ndk
 	brew install --cask java unity steam
 
